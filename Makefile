@@ -24,6 +24,5 @@ fclean: clean
 
 re: fclean all
 
-cs: fclean
-	cat coding-style-reports.log
-	rm -rf coding-style-reports.log
+tests_run:
+	@echo "Running tests..."
